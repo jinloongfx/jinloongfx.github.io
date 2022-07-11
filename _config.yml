@@ -1,5 +1,5 @@
 # Base blog settings
-baseurl                      : "" # the subpath of your site,                         # e.g. /blog/
+baseurl                      : #"" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
 url                          : "http://jinloongfx.github.io" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
@@ -12,10 +12,10 @@ blog:
   logo_path                  : "assets/img/jllogosmall.png" # path to logo file
   search_path                : "jinloongfx.github.io"
                                # needed for searchbox in archive page
-  hero_layout                : true # turn on hero layout for blog and posts
+  hero_layout                : false # turn on hero layout for blog and posts
   hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
-  excerpts                   : true # show excerpts instead of full post content on blog page
-  inline_footnotes           : true # enable/disable barefoot inline footnotes
+  excerpts                   : false # show excerpts instead of full post content on blog page
+  inline_footnotes           : false # enable/disable barefoot inline footnotes
   titles_only                : false # show post titles only on main blog page
 
 # Fonts
