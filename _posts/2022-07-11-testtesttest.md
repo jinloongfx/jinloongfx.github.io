@@ -5,7 +5,7 @@
 # 开始写博客
 ## 先写个shader的看看
 ### 截图
-assets/20220711/SG001.png
+https://github.com/jinloongfx/jinloongfx.github.io/blob/master/assets/20220711/SG001.png
 ### 插入链接
 [我找了个b站视频](https://www.bilibili.com/video/BV1A3411w765?share_source=copy_web)
 ### 敲一段代码看看
