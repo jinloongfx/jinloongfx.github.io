@@ -1,71 +1,74 @@
 ---
-# Jekyll automatically transpiles this file; access via {{site.url}}/assets/css/main.css
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$background_image: '{{site.background_image}}';
+@import
 
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/skel';
-@import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900');
+    "skins/{{ site.text_skin | default: site.data.variables.default.text_skin }}",
+    // "skins/chocolate",
+    // "skins/dark",
+    // "skins/default",
+    // "skins/forest",
+    // "skins/ocean",
+    // "skins/orange",
 
-/*
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+    "skins/highlight/{{ site.highlight_theme | default: site.data.variables.default.highlight_theme }}",
+    // "skins/highlight/tomorrow",
+    // "skins/highlight/tomorrow-night",
+    // "skins/highlight/tomorrow-night-eighties",
+    // "skins/highlight/tomorrow-night-blue",
+    // "skins/highlight/tomorrow-night-bright",
 
-	@include skel-breakpoints((
-		xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
-		medium: '(max-width: 980px)',
-		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)',
-		xxsmall: '(max-width: 360px)'
-	));
 
-	@include skel-layout((
-		reset: 'full',
-		boxModel: 'border',
-		grid: ( gutters: 1.5rem )
-	));
+    "common/variables",
+    "common/function",
+    "common/classes",
+    "common/reset",
+    "common/print",
+    "common/components/button",
+    "common/components/image",
+    "common/components/card",
+    "common/components/gallery",
+    "common/components/hero",
+    "common/components/menu",
+    "common/components/modal",
+    "common/components/toc",
+    "common/components/item",
+    "common/components/swiper",
 
-	@mixin color($p) {
-		@include color-typography($p);
-		@include color-box($p);
-		@include color-button($p);
-		@include color-form($p);
-		@include color-list($p);
-		@include color-section($p);
-		@include color-table($p);
-		@include color-pagination($p);
-	}
+    "animate/fade-in",
+    "animate/fade-in-down",
+    "animate/fade-in-up",
 
-// Base.
+    "components/main",
+    "components/header",
+    "components/footer",
+    "components/article-list",
+    "components/article-info",
+    "components/article-header",
+    "components/article-content",
+    "components/article-footer",
+    "components/author-links",
+    "components/author-profile",
+    "components/tags",
+    "components/search",
+    "components/lightbox",
+    "components/extensions",
 
-	@import 'base/page';
-	@import 'base/typography';
 
-// Component.
+    "additional/alert",
+    "additional/tag",
+    "additional/photo-frame",
 
-	@import 'components/box';
-	@import 'components/button';
-	@import 'components/form';
-	@import 'components/icon';
-	@import 'components/image';
-	@import 'components/list';
-	@import 'components/section';
-	@import 'components/table';
-	@import 'components/pagination';
+    "layout/base",
+    "layout/page",
 
-// Layout.
+    "layout/article",
+    "layout/articles",
+    "layout/archive",
+    "layout/home",
+    "layout/landing",
+    "layout/404",
 
-	@import 'layout/wrapper';
-	@import 'layout/intro';
-	@import 'layout/header';
-	@import 'layout/nav';
-	@import 'layout/main';
-	@import 'layout/footer';
-	@import 'layout/navPanel';
+    "custom"
+;
