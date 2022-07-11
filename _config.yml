@@ -1,17 +1,16 @@
 # Base blog settings
-baseurl                      : "/dactl/" # the subpath of your site,                         # e.g. /blog/
+baseurl                      : "" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
-url                          : "" # the base hostname & protocol for your site
+url                          : "http://jinloongfx.github.io" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
   title                      : jinlongfx
-  description                  : >
-                               this should contain a proper description
+  description                  : 描述描述
 
 # Layout configuration
   logo_path                  : "assets/img/dactl.svg" # path to logo file
-  search_path                : # "yourgitusername.github.io"
+  search_path                : "jinloongfx.github.io"
                                # needed for searchbox in archive page
   hero_layout                : true # turn on hero layout for blog and posts
   hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
