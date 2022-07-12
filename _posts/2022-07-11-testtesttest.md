@@ -1,6 +1,7 @@
 ---
     layout: article
     title: 第一次写-第一篇文章
+    footer: false
     mathjax: true
 ---
 # 开始写博客
