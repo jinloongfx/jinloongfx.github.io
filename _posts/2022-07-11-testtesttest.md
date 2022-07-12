@@ -1,6 +1,7 @@
 ---
-    layout: post
-    title: test试试水看
+    layout: article
+    title: 第一次写-第一篇文章
+    mathjax: true
 ---
 # 开始写博客
 ## 先写个shader的看看
