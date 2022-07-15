@@ -4,7 +4,7 @@ description: '没有特效做好无聊只能打游戏' # this means to ignore ne
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://jinloongfx.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/JLlogo/jllogosmall.png"
+logo: "/assets/img/JLlogo/bizhi.svg"
 logo-icon: "/assets/img/JLlogo/bizhi.svg"
 logo-icon-SEO: "/assets/img/JLlogo/bizhi.svg" # must be a non SVG file
 
