@@ -5,7 +5,7 @@ show_date: true
 title: "Starting the adventure"
 date: 2021-03-24
 img: posts/20210324/starting_adventure.jpg
-tags: [general blogging, thoughts, life]
+tags: sample
 author: Armando Maynez
 description: "Midlife career change: a disaster or an opportunity?"
 ---
