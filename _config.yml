@@ -20,7 +20,7 @@ logo-icon-SEO: "/assets/img/JLlogo/bizhi.svg" # must be a non SVG file
 # the browser is closed or not)
 night_mode: "on"
 
-logo-dark: "/assets/img/JLlogo/jllogosmall.png"
+logo-dark: "/assets/img/JLlogo/bizhi.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
