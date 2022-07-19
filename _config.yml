@@ -25,7 +25,7 @@ highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code h
 
 # Author settings
 author: JinLoong # add your name
-author-pic: assets/img/jllogomid.png
+author-pic: assets/img/Myself_Neon_grey.jpg
 about-author: 学如逆水行舟不进则退
 
 # Contact links
@@ -39,7 +39,7 @@ bandcamp:  # Add your Bandcamp username
 stackoverflow:  # Add your stackoverflow account
 
 # Newsletter
-mailchimp: false #"https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
+mailchimp:  #"https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
 # Tracker
 analytics: G-R8SZS2YBZK

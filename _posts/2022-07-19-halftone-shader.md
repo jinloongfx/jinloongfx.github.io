@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 show_date: true
 title: halftone shader
 img: posts/2022/07/19/halftone_title.png
