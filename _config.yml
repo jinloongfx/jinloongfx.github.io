@@ -39,7 +39,7 @@ bandcamp: armandomaynez # Add your Bandcamp username
 stackoverflow: stackoverflow # Add your stackoverflow account
 
 # Newsletter
-mailchimp: "" #"https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
+# mailchimp: "" #"https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
 # Tracker
 analytics: G-R8SZS2YBZK
@@ -51,7 +51,7 @@ paginate_path: 'page:num'
 words_per_minute: 200
 
 # Comments
-comments: utteranc  #[disqus, utteranc]
+comments:   #[disqus, utteranc]
 comments_opts:
   comments_curtain: yes # leave empty to show the disqus embed directly
   repo: # The GitHub repo URL.  https://utteranc.es/
