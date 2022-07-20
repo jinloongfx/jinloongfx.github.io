@@ -1,6 +1,6 @@
 # Site settings
 title: 金龙的特效工坊
-description: 没有特效做好无聊只能打游戏 # this means to ignore newlines until "baseurl:"
+description: 一杯茶一包烟一秒特效做一天 # this means to ignore newlines until "baseurl:"
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://jinloongfx.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -21,17 +21,17 @@ logo-icon-SEO: "/assets/img/JLlogo/bizhi.svg" # must be a non SVG file
 night_mode: "on"
 
 logo-dark: "/assets/img/JLlogo/bizhi.png"
-highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
+highlight_theme: GLSL #syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
 author: JinLoong # add your name
-author-pic: "assets/img/JLlogo/jllogomid.png"
+author-pic: "assets/img/JLlogo/jllogosmall.png"
 about-author: 学如逆水行舟不进则退
 
 # Contact links
 email: jinloongfx@outlook.com # Add your Email address
-phone: # Add your Phone number
-website: https://jinloongfx.github.io # Add your website
+phone: 13430596867 # Add your Phone number
+website: https://mikc.cc # Add your website
 linkedin:  # Add your Linkedin handle
 github:  # Add your Github handle
 twitter:  # Add your Twitter handle
@@ -39,14 +39,14 @@ bandcamp:  # Add your Bandcamp username
 stackoverflow:  # Add your stackoverflow account
 
 # Newsletter
-mailchimp:  #"https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
+mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
 # Tracker
 analytics: G-R8SZS2YBZK
 fbadmin: ar.maybach
 
 # Paginate
-paginate: 6
+paginate: 8
 paginate_path: 'page:num'
 words_per_minute: 200
 
