@@ -1,8 +1,21 @@
-.idea
-.DS_Store
-.sass-cache
-Gemfile.lock
-package-json.lock
+# hidden files
+.*
+!.git*
+!.editorconfig
+!.nojekyll
+!.travis.yml
+!.husky
+!.commitlintrc.json
+!.versionrc.json
+
+# bundler cache
 _site
+vendor
+Gemfile.lock
+
+# rubygem
+*.gem
+
+# npm dependencies
 node_modules
-_drafts
+package-lock.json
