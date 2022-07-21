@@ -1,370 +1,290 @@
-demo site now [mirrored](https://weathered-bread-8229.on.fleek.co/) in [IPFS](https://github.com/ipfs/ipfs#quick-summary)!
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5f205b3a-73c2-472c-b052-82b95bdf36b7/deploy-status)](https://app.netlify.com/sites/sleepy-bhabha-00eedf/deploys)
 
-# Jekyll theme: Adam Blog 2.0
-by [Armando Maynez](https://github.com/amaynez) based on [V1.0](https://github.com/artemsheludko/adam-blog) by [Artem Sheludko](https://github.com/artemsheludko). 
+### Hey guys, how are you? 🍽 🇧🇷
 
-Adam Blog 2.0 is a Jekyll theme that was built to be 100% compatible with [GitHub Pages](https://pages.github.com/). If you are unfamiliar with GitHub Pages, you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
+As you know, this is a 100% free template, I earn nothing to maintain it. So, I have this idea and hope you can join me for a good cause.
 
-### What is Jekyll?
+Every donation that I receive from this project from now on (04/11/21), I'll donate to NGOs that work against hunger in Brazil.
 
-Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Basically, Jekyll takes your page content along with template files and produces a complete website. For more information, visit the [official Jekyll site](https://jekyllrb.com/docs/home/) for their documentation. Codecademy also offers a great course on [how to deploy a Jekyll site](https://www.codecademy.com/learn/deploy-a-website) for complete beginners.
+If you feel the template is worth it and you could help people in need, here is the link:
 
-### Never Used Jekyll Before?
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SAKL66RSDGH48&source=url)
 
-The beauty of hosting your website on GitHub is that you don't have to actually have Jekyll installed on your computer. Everything can be done through the GitHub code editor, with minimal knowledge of how to use Jekyll or the command line. All you have to do is add your posts to the `_posts` directory and edit the `_config.yml` file to change the site settings. With some rudimentary knowledge of HTML and CSS, you can even modify the site to your liking. This can all be done through the GitHub code editor, which acts like a content management system (CMS).
+Thank you!
 
-## Features of v2.0:
-- SEO meta tags
-- Dark mode ([configurable in _config.yml file](https://github.com/the-mvm/the-mvm.github.io/blob/a8d4f781bfbc4107b4842433701d28f5bbf1c520/_config.yml#L10))
-- automatic [sitemap.xml](http://the-mvm.github.io/sitemap.xml)
-- automatic [archive page](http://the-mvm.github.io/archive/) with infinite scrolling capability
-- [new page](https://the-mvm.github.io/tag/?tag=Coding) of posts filtered by a single tag (without needing autopages from paginator V2), also with infinite scrolling
-- click to tweet functionality (just add a `<tweet> </tweet>` tag in your markdown.
-- custom and responsive [404 page](https://the-mvm.github.io/404.html)
-- responsive and automatic Table of Contents (optional per post)
-- read time per post automatically calculated
-- responsive post tags and social share icons (sticky or inline)
-- included linkedin, reddit and bandcamp icons
-- *copy link to clipboard* sharing option (and icon)
-- view on github link button (optional per post)
-- MathJax support (optional per post)
-- tag cloud in the home page
-- 'back to top' button
-- comments 'courtain' to mask the disqus interface until the user clicks on it ([configurable in _config.yml](https://github.com/the-mvm/the-mvm.github.io/blob/d4a67258912e411b639bf5acd470441c4c219544/_config.yml#L13))
-- [CSS variables](https://github.com/the-mvm/the-mvm.github.io/blob/d4a67258912e411b639bf5acd470441c4c219544/assets/css/main.css#L8) to make it easy to customize all colors and fonts
-- added several themes for code syntax highlight [configurable from the _config.yml file](https://github.com/the-mvm/the-mvm.github.io/blob/e146070e9348c2e8f46cb90e3f0c6eb7b59c041a/_config.yml#L44).
-- responsive footer menu and footer logo ([if setup in the config file](https://github.com/the-mvm/the-mvm.github.io/blob/d4a67258912e411b639bf5acd470441c4c219544/_config.yml#L7))
-- search shows results based on full post content, not just the description
-- smoother menu animations 
+# Jekflix Template
 
-## Features preserved from v1.0
-- [Google Fonts](https://fonts.google.com/)
-- [Font Awesome icons](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
-- [MailChimp](https://mailchimp.com/)
-- [Analytics](https://analytics.google.com/analytics/web/)
-- [Search](https://github.com/christian-fei/Simple-Jekyll-Search)
+![Jekflix Template Cover Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1505354182/jekflix-logo_mfngps.png)
 
-## Demo
+See the [demo here](https://jekflix.rossener.com/).
 
-[Check the theme in action](https://the-mvm.github.io/)
+## What is it?
 
-The main page looks like this:
+A theme for Jekyll inspired by Netflix panel for who loves movies and series and would like to have a blog with this cool appearance.
 
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/homepage-responsive.jpg?raw=true">
+![Jekflix Screenshot Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566390829/jekflix-screenshot-2_zfiog2.jpg)
 
-Dark mode selector in main menu:
+## Features
 
-<img width="560px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/light-toggle.png?raw=true">
+- [Live Search](https://github.com/thiagorossener/jekflix-template/wiki/Features#live-search)
+- [Estimated Reading Time](https://github.com/thiagorossener/jekflix-template/wiki/Features#estimated-reading-time)
+- [Reading Progress Bar](https://github.com/thiagorossener/jekflix-template/wiki/Features#reading-progress-bar) *(optional)*
+- ["New Post" tag](https://github.com/thiagorossener/jekflix-template/wiki/Features#new-post-tag)
+- [Load images on demand](https://github.com/thiagorossener/jekflix-template/wiki/Features#load-images-on-demand)
+- [Push Menu](https://github.com/thiagorossener/jekflix-template/wiki/Features#push-menu)
+- [SVG icons](https://github.com/thiagorossener/jekflix-template/wiki/Features#svg-icons)
+- [Shell script to create posts](https://github.com/thiagorossener/jekflix-template/wiki/Features#shell-script-to-create-posts)
+- [Tags page](https://github.com/thiagorossener/jekflix-template/wiki/Features#tags-page)
+- [About page](https://github.com/thiagorossener/jekflix-template/wiki/Features#about-page)
+- [Contact page](https://github.com/thiagorossener/jekflix-template/wiki/Features#contact-page)
+- [404 error page](https://github.com/thiagorossener/jekflix-template/wiki/Features#404-error-page)
+- [Feed RSS](https://github.com/thiagorossener/jekflix-template/wiki/Features#feed-rss)
+- [Disqus](https://github.com/thiagorossener/jekflix-template/wiki/Features#disqus) *(optional)*
+- [Featured post](https://github.com/thiagorossener/jekflix-template/wiki/Features#featured-post) *(optional)*
+- [Home page pagination](https://github.com/thiagorossener/jekflix-template/wiki/Features#home-page-pagination) *(optional)*
+- [Posts sidebar](https://github.com/thiagorossener/jekflix-template/wiki/Features#posts-sidebar) *(optional)*
+- [Paginated posts](https://github.com/thiagorossener/jekflix-template/wiki/Features#paginated-posts) *(optional)*
+- ["Before you go" modal](https://github.com/thiagorossener/jekflix-template/wiki/Features#before-you-go-modal) *(optional)*
+- [Post recommendation](https://github.com/thiagorossener/jekflix-template/wiki/Features#post-recommendation)
+- [Netlify CMS ready](https://github.com/thiagorossener/jekflix-template/wiki/Features#netlify-cms-ready)
+- [Translations](https://github.com/thiagorossener/jekflix-template/wiki/setup#translations) **new!**
+- [Math Expressions](https://github.com/thiagorossener/jekflix-template/wiki/Features#math-expressions) *(optional)* **new!**
 
-The post page looks like:
+## SEO
 
-<img width="540px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/post.jpg?raw=true">
-<img width="540px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/post_bottom.jpg?raw=true">
+- Google Analytics
+- Meta tags
+- JSON-LD
+- Sitemap.xml
+- Social Media ready
 
-Custom responsive 404:
+## Quick Install
 
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/404-responsive.jpg?raw=true">
+In the case you're installing to existing Jekyll project, add this line to your project's `Gemfile`:
 
-Dark mode looks like this:
-
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/homepage-dark.png?raw=true">
-
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/post-dark.png?raw=true">
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/post_bottom-dark.png?raw=true">
-
-# Installation
-
-## Local Installation
-
-For a full local installation of Adam Blog 2.0, [download your own copy of Adam Blog 2.0](https://github.com/the-mvm/the-mvm.github.io/archive/refs/heads/main.zip) and unzip it into it's own directory. From there, open up your favorite command line tool, enter `bundle install`, and then enter `jekyll serve`. Your site should be up and running locally at [http://localhost:4000](http://localhost:4000).
-
-If you're completely new to Jekyll, I recommend checking out the documentation at <https://jekyllrb.com/> or there's a tutorial by [Smashing Magazine](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/).
-
-If you are hosting your site on GitHub Pages, then committing a change to the `_config.yml` file (or any other file) will force a rebuild of your site with Jekyll. Any changes made should be viewable soon after. If you are hosting your site locally, then you must run `jekyll serve` again for the changes to take place.
-
-Head over to the `_posts` directory to view all the posts that are currently on the website, and to see examples of what post files generally look like. You can simply just duplicate the template post and start adding your own content.
-
-## GitHub Pages Installation
-
-### **STEP 1.**
-[Fork this repository](https://github.com/the-mvm/the-mvm.github.io/fork/) into your own account.
-
-#### Using Github Pages
-
-You can host your Jekyll site for free with Github Pages. [Click here](https://pages.github.com/) for more information.
-
- When forking, if you use as destination a repository named ``USERNAME.github.io`` then your url will be ``https://USERNAME.github.io/``, else ``https://USERNAME.github.io/REPONAME/``) and your site will be published to the gh-pages branch. Note: if you are hosting several sites under the same GitHub username, then you will have to use [Project Pages instead of User Pages](https://help.github.com/articles/user-organization-and-project-pages/) - just change the repository name to something other than 'http://USERNAME.github.io'.
-
-##### A configuration tweak if you're using a gh-pages branch
-
-In addition to your github-username.github.io repo that maps to the root url, you can serve up sites by using a gh-pages branch for other repos so they're available at github-username.github.io/repo-name.
-
-This will require you to modify the `_config.yml` like so:
-
-```yml
-# Site settings
-title: Repo Name
-email: your_email@example.com
-author: Your Name
-description: "Repo description"
-baseurl: "/repo-name"
-url: "https://github-username.github.io"
+```
+gem "jekflix"
 ```
 
-This will ensure that the the correct relative path is constructed for your assets and posts.
+Add this line to your project's `_config.yml`:
 
-### **STEP 2.**
-Modify ``_config.yml`` file, located in the root directory, with your data.
-
-```YAML
-# Site settings
-title: The Title for Your Website
-description: 'A description of your blog'
-permalink: ':title:output_ext' # how the permalinks will behave
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "" # the logo for your site
-logo-icon: "" # a smaller logo, typically squared
-logo-icon-SEO: "" # must be a non SVG file, could be the same as the logo-icon
-
-# Night/Dark mode default mode is "auto", "auto" is for auto nightshift (19:00 - 07:00), "manual" is for manual toggle, and "on/off" is for default on/off. Whatever the user's choice is, it will supersede the default setting of the site and be kept during the visit (session). Only the dark mode setting is "manual", it will be always kept on every visit (i.e. no matter the browser is closed or not)
-night_mode: "auto"
-logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg" #if you want to display a different logo when in dark mode
-highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
-
-
-# Author settings
-author: Your Name # add your name
-author-pic: '' # a picture of you
-about-author: '' # a brief description of you
-
-# Contact links
-email: your@email.com # Add your Email address
-phone: # Add your Phone number
-website:  # Add your website
-linkedin:  # Add your Linkedin handle
-github:  # Add your Github handle
-twitter:  # Add your Twitter handle
-bandcamp:  # Add your Bandcamp username
-
-# Tracker
-analytics: # Google Analytics tag ID
-fbadmin: # Facebook ID admin
-
-# Paginate
-paginate: 6 # number of items to show in the main page
-paginate_path: 'page:num'
-words_per_minute: 200 # default words per minute to be considered when calculating the read time of the blog posts
 ```
-### **STEP 3.**
-To configure the newsletter, please create an account in https://mailchimp.com, set up a web signup form and paste the link from the embed signup form in the `config.yml` file:
-```YAML
-# Newsletter
-mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
+theme: jekflix
 ```
 
-### **STEP 4.**
-To configure Disqus, set up a [Disqus site](https://disqus.com/admin/create/) with the same name as your site. Then, in `_config.yml`, edit the `disqus_identifier` value to enable.
-```YAML
-# Disqus
-discus_identifier:  # Add your discus identifier
-comments_curtain: yes # leave empty to show the disqus embed directly
-```
-More information on [how to set up Disqus](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/).
+And then run:
 
-### **STEP 5.**
-Customize the site colors. Modify `/assets/css/main.css` as follows:
-```CSS
-html {
-  --shadow:       rgba(32,30,30,.3);
-  --accent:       #DB504A;    /* accent */
-  --accent-dark:  #4e3e51;    /* accent 2 (dark) */
-  --main:         #326273;    /* main color */
-  --main-dim:     #879dab;    /* dimmed version of main color */
-  --text:         #201E1E;
-  --grey1:        #5F5E58;
-  --grey2:        #8D897C;
-  --grey3:        #B4B3A7;
-  --grey4:        #DAD7D2;
-  --grey5:        #F0EFED;
-  --background:   #ffffff;
-}
-
-html[data-theme="dark"]  {
-  --accent:       #d14c47;    /* accent */
-  --accent-dark:  #CD8A7A;    /* accent 2 (dark) */
-  --main:         #4C6567;    /* main color */
-  --main-dim:     #273335;    /* dimmed version of main color */
-  --text:         #B4B3A7;
-  --grey1:        #8D897C;
-  --grey2:        #827F73;
-  --grey3:        #76746A;
-  --grey4:        #66645D;
-  --grey5:        #4A4945;
-  --background:   #201E1E;
-  --shadow:       rgba(180,179,167,.3);
-}
 ```
-### **STEP 6.**
-Customize the site fonts. Modify `/assets/css/main.css` as follows:
-```CSS
-...
-  --font1: 'Lora', charter, Georgia, Cambria, 'Times New Roman', Times, serif;/* body text */
-  --font2: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif; /* headers and titles   */
-  --font1-light:      400;
-  --font1-regular:    400;
-  --font1-bold:       600;
-  --font2-light:      200;
-  --font2-regular:    400;
-  --font2-bold:       700;
-...
-```
-If you change the fonts, you need to also modify `/_includes/head.html` as follows:
-Uncomment and change the following line with your new fonts and font weights:
-```HTML
-<link href="https://fonts.googleapis.com/css?family=Lora:400,600|Source+Sans+Pro:200,400,700" rel="stylesheet">
-```
-Delete everything within `<style></style>` just before the line above:
-```HTML
-<style>
-/* latin */
-@font-face {
-  font-family: 'Lora';
-  ...
-</style>
+$ bundle
 ```
 
-### **STEP 7.**
+Or install it yourself as:
 
-You will find example posts in your `/_posts/` directory. Go ahead and edit any post and re-build the site to see your changes, for github pages, this happens automatically with every commit. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+```
+$ gem install jekflix
+```
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention of `YYYY-MM-DD-name-of-post.md` and includes the necessary front matter. Take a look at any sample post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts to migrate to Adam Blog 2.0.
+### Theme Colors
 
-The front matter options for each post are:
-```YAML
+Create the file `/assets/css/styles.scss` and add:
+
+```
 ---
-layout: post #ensure this one stays like this
-read_time: true # calculate and show read time based on number of words
-show_date: true # show the date of the post
-title:  Your Blog Post Title
-date:   XXXX-XX-XX XX:XX:XX XXXX
-description: "The description of your blog post"
-img: # the path for the hero image, from the image folder (if the image is directly on the image folder, just the filename is needed)
-tags: [tags, of, your, post]
-author: Your Name
-github: username/reponame/ # set this to show a github button on the post
-toc: yes # leave empty or erase for no table of contents
 ---
-```
-Edit your blogpost using markdown. [Here is a good guide about how to use it.](https://www.markdownguide.org/)
 
-### **STEP 7.**
-Delete images inside of ``/assets/img/posts/`` and upload your own images for your posts.
+$themeColor: #ff0a16;
+$primaryDark: #141414;
+$accentDark: #ffffff;
+$lightGray: #f2f2f2;
+$texts: #333333;
 
-### **STEP 8.**
-Make sure Github Pages are turned on in the repository settings, and pointing to the main or master branch (where you cloned this repo).
-
-## Additional documentation
-
-### Directory Structure
-
-If you are familiar with Jekyll, then the Adam Blog 2.0 directory structure shouldn't be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the [Jekyll documentation site](https://jekyllrb.com/docs/structure/).
-
-```bash
-Adam Blog 2.0/
-├── _includes                  # Theme includes
-├── _layouts                   # Theme layouts (see below for details)
-├── _posts                     # Where all your posts will go
-├── assets                     # Style sheets and images are found here
-|  ├── css                     # Style sheets go here
-|  |  └── _sass                # Folder containing SCSS files
-|  |  └── main.css             # Main SCSS file
-|  |  └── highlighter          # Style sheet for code syntax highlighting
-|  └── img                     # 
-|     └── posts                # Images go here
-├── _pages                     # Website pages (that are not posts)
-├── _config.yml                # Site settings
-├── Gemfile                    # Ruby Gemfile for managing Jekyll plugins
-├── index.html                 # Home page
-├── LICENSE.md                 # License for this theme
-├── README.md                  # Includes all of the documentation for this theme
-├── feed.xml                   # Generates atom file which Jekyll points to
-├── 404.html                   # custom and responsive 404 page
-├── all-posts.json             # database of all posts used for infinite scroll
-├── ipfs-404.html              # 404 page for IPFS
-├── posts-by-tag.json          # database of posts by tag
-├── robots.txt                 # SEO crawlers exclusion file
-├── search.json                # database of posts used for search
-└── sitemap.xml                # automatically generated sitemap for search engines
+@import "jekflix";
 ```
 
-### Starting From Scratch
+Modify the variables above to change your theme colors.
 
-To completely start from scratch, simply delete all the files in the `_posts`, `assets/img/posts` folders, and add your own content. Everything in the `_config.yml` file can be edited to suit your needs. Also change the `favicon.ico` file to your own favicon.
+### Site configuration
 
-### Click to tweet
+Below are some properties you can change in your project `_config.yml`, check the [documentation](https://github.com/thiagorossener/jekflix-template/wiki/settings) for more details.
 
-If you have a tweetable quote in your blog post and wish to feature it as a click to tweet block, you just have to use the `<tweet></tweet>` tags, everything between them will be converted in a click to tweet box.
-
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/ctt-markdown.png?raw=true">
-
-<img width="640px" src="https://github.com/the-mvm/the-mvm.github.io/blob/main/assets/img/template_screenshots/ctt-render.png?raw=true">
-
-### Google Analytics
-
-It is possible to track your site statistics through [Google Analytics](https://www.google.com/analytics/). Similar to Disqus, you will have to create an account for Google Analytics, and enter the correct Google ID for your site under `google-ID` in the `_config.yml` file. More information on [how to set up Google Analytics](https://michaelsoolee.com/google-analytics-jekyll/).
-
-### Atom Feed
-
-Atom is supported by default through [jekyll-feed](https://github.com/jekyll/jekyll-feed). With jekyll-feed, you can set configuration variables such as 'title', 'description', and 'author', in the `_config.yml` file.
-
-Your atom feed file will be live at `https://your.site/feed.xml` [example](https://the-mvm.github.io/feed.xml).
-
-### Social Media Icons
-
-All social media icons are courtesy of [Font Awesome](http://fontawesome.io/). You can change which icons appear, as well as the account that they link to, in the `_config.yml` file.
-
-### MathJax
-
-Adam Blog 2.0 comes out of the box with [MathJax](https://www.mathjax.org/), which allows you to display mathematical equations in your posts through the use of [LaTeX](http://www.andy-roberts.net/writing/latex/mathematics_1). Just add `Mathjax: yes` in the frontmatter of your post.
-
-```markdown
-<p style="text-align:center">
-\(\theta_{t+1} = \theta_{t} - \dfrac{\eta}{\sqrt{\hat{v}_t} + \epsilon} \hat{m}_t\).
-</p>
 ```
-![rendered mathjax](/assets/img/template_screenshots/MathjaxRendered.jpg)
+# Site Settings
+name: Jekflix
+title: Jekflix | A blog theme for Jekyll
+description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+email: youremail@xyz.com
+disqus_username: disqus_username
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
 
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: github_username
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
 
-### Syntax Highlighting
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
 
-Adam Blog 2.0 provides syntax highlighting through [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/). Syntax highlighting allows you to display source code in different colors and fonts depending on what programming language is being displayed. You can find the full list of supported programming languages [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers). Another option is to embed your code through [Gist](https://en.support.wordpress.com/gist/).
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+language: "en"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
 
-You can choose the color theme for the syntax highlight in the `_config.yml` file:
-```YAML
-highlight_theme: syntax-base16.monokai.dark # select a theme for the code highlighter
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: true
+use_logo: false
+
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# SASS
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-content
 ```
-See the [highlighter directory](https://github.com/the-mvm/the-mvm.github.io/tree/main/assets/css/highlighter) for reference on the options.
 
-### Markdown
+## Setup
 
-Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the [Markdown syntax](https://guides.github.com/features/mastering-markdown/).
+In the case you're cloning this repo, follow those instructions:
 
-## Everything Else
+- [Environment](https://github.com/thiagorossener/jekflix-template/wiki/setup#environment)
+- [Installing template](https://github.com/thiagorossener/jekflix-template/wiki/setup#installing-template)
+- [Running local](https://github.com/thiagorossener/jekflix-template/wiki/setup#running-local)
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+### Customization
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+See the [settings documentation](https://github.com/thiagorossener/jekflix-template/wiki/settings) to customize layout, titles, social media and more.
 
-## Contributing
+### Theme
 
-If you would like to make a feature request, or report a bug or typo in the documentation, then please [submit a GitHub issue](https://github.com/the-mvm/the-mvm.github.io/issues/new). If you would like to make a contribution, then feel free to [submit a pull request](https://help.github.com/articles/about-pull-requests/) - as a bonus, I will credit all contributors below! If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+You can easily change the theme colors by changing the file `src/yml/theme.yml`, then running `gulp build` in your terminal.
 
-Adam Blog 2.0 has been designed as a base for users to customize and fit to their own unique needs. Please keep this in mind when requesting features and/or submitting pull requests. Some examples of changes that I would love to see are things that would make the site easier to use, or better ways of doing things. Please avoid changes that do not benefit the majority of users.
+#### GitHub pages
+
+It's a known issue that you can't run Gulp when deploying the website into GitHub pages. So, you must change the theme colors and run `gulp build` locally, then push the changes into your repo, there is no other way.
+
+To see how your website is going to look like when you deploy it, run `bundle exec jekyll serve` locally and access `http://127.0.0.1:4000/`.
+
+## Posts
+
+Use the [Front Matter properties](https://github.com/thiagorossener/jekflix-template/wiki/post#front-matter-properties) to create posts.
+
+> **Note:** In the case you're cloning this repo, you can use the available [script](https://github.com/thiagorossener/jekflix-template/wiki/post#creating-a-post) to generate posts automatically.
+
+## Release notes
+
+### v3.1.1
+
+- Added `formspree_form_id` config
+- Bumped up dependencies
+- Fixed minor bugs
+
+### v3.1.0
+
+- Fixed hero URL, thanks to [@JoelSalzesson](https://github.com/JoelSalzesson)
+- Updated Google Analytics script, thanks to [@JHLeeeMe](https://github.com/JHLeeeMe)
+- Added MathJax library to render math expressions, thanks to [@XieGuochao](https://github.com/XieGuochao)
+
+### v3.0.2
+
+- Added assets folder
+
+### v3.0.1
+
+- Fixed post SVG icons
+
+### v3.0.0
+
+- Created theme `gem`
+- Enabled text translations
+- Added heading anchor links
+- Changed code highlight colors
+- Changed from Stylus to SASS
+
+### v2.0.1
+- Fixed bugs
+- Optimized to support disabled JS
+
+### v2.0.0
+- Added optional [sidebar](https://github.com/thiagorossener/jekflix-template/wiki/Features#posts-sidebar)
+- Added optional [Featured post](https://github.com/thiagorossener/jekflix-template/wiki/features#featured-post)
+- Added optional ["Before you go" modal](https://github.com/thiagorossener/jekflix-template/wiki/features#before-you-go-modal)
+- Added optional [post pagination](https://github.com/thiagorossener/jekflix-template/wiki/features#paginated-posts)
+- Added [post recommendation](https://github.com/thiagorossener/jekflix-template/wiki/features#post-recommendation)
+- Added meta keywords to improve SEO
+- Added JSON-LD to improve SEO
+- Changed pagination to be [optional](https://github.com/thiagorossener/jekflix-template/wiki/features#home-page-pagination)
+- Improved [Tags page](https://github.com/thiagorossener/jekflix-template/wiki/features#tags-page)
+- Cleaned up and improved [Front Matter properties](https://github.com/thiagorossener/jekflix-template/wiki/post#front-matter-properties)
+- Set up [Netlify CMS](https://github.com/thiagorossener/jekflix-template/wiki/features#netlify-cms-ready)
+- Improved customization settings
+- Minor design updates
+
+### v1.0.1
+- Fixed bugs
+- Upgraded to Gulp 4
+
+### v1.0.0
+- Initial release
 
 ## Questions?
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to  [file a GitHub issue](https://github.com/the-mvm/the-mvm.github.io/issues/new).
+File a [GitHub issue](https://github.com/thiagorossener/jekflix-template/issues/new) please.
+
+## Author
+
+[Thiago Rossener](https://rossener.com/)
+
+## License
+
+*Jekflix Template* is available under the MIT license. See the [LICENSE](https://github.com/thiagorossener/jekflix-template/blob/master/LICENSE) file for more info.

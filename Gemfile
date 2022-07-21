@@ -1,9 +1,9 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'jekyll'
-
-group :jekyll_plugins do
-  gem "jekyll-paginate"
-  gem "jekyll-feed"
-  gem "jekyll-sitemap"
-end
+gem "kramdown"
+gem "kramdown-parser-gfm"
+gem "rouge"
+gem "jekyll"
+gem "jekyll-paginate"
+gem "jekyll-paginate-content"
+gem "json"

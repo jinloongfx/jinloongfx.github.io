@@ -1,89 +1,108 @@
-# Site settings
+# Site Settings
+name: JinLoong
 title: 金龙的特效工坊
-description: 一杯茶一包烟一秒特效做一天 # this means to ignore newlines until "baseurl:"
-permalink: ':title:output_ext'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://jinloongfx.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/JLlogo/jllogomid.png"
-logo-icon: "/assets/img/JLlogo/jllogomid.png"
-logo-icon-SEO: "/assets/img/JLlogo/bizhi.svg" # must be a non SVG file
+description: 一杯茶一包烟一秒特效调一天
+  Thiago Rossener.
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
+email: jinloongfx@outlook.com
+# See: https://disqus.com/
+disqus_username: disqus_username
+# Contact Form Setting
+# See: https://formspree.io/
+formspree_form_id: formspree_form_id
 
-# Night/Dark mode
-# Default mode is "auto", "auto" is for auto nightshift
-# (19:00 - 07:00), "manual" is for manual toggle, and
-# "on/off" is for default on/off.
-#
-# Whatever the user's choice is, it will supersede the
-# default setting of the site and be kept during the
-# visit (session). Only the dark mode setting is "manual",
-# it will be always kept on every visit (i.e. no matter
-# the browser is closed or not)
-night_mode: "on"
 
-logo-dark: "/assets/img/JLlogo/bizhi.png"
-highlight_theme: GLSL #syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: jinloongfx
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
 
-# Author settings
-author: JinLoong # add your name
-author-pic: "Myself_Neon.jpg"
-about-author: 学如逆水行舟不进则退
 
-# Contact links
-email: jinloongfx@outlook.com # Add your Email address
-phone: "13430596867" # Add your Phone number
-website: https://mikc.cc # Add your website
-linkedin:  # Add your Linkedin handle
-github:  # Add your Github handle
-twitter:  # Add your Twitter handle
-bandcamp:  # Add your Bandcamp username
-stackoverflow:  # Add your stackoverflow account
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
 
-# Newsletter
-# mailchimp: "https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
-# Tracker
-analytics: G-R8SZS2YBZK
-fbadmin: ar.maybach
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://jinloongfx.github.io" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+language: "zh_CN"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
 
-# Paginate
-paginate: 6
-paginate_path: 'page:num'
-words_per_minute: 200
-
-# Comments
-comments:   #[disqus, utteranc]
-comments_opts:
-  comments_curtain: yes # leave empty to show the disqus embed directly
-  repo: # The GitHub repo URL.  https://utteranc.es/
-  issue_term: # The GitHub issue label
-  label: # The GitHub comments label
-  theme: # The GitHub comment's there. e.g. github-dark
-  # Disqus
-  discus_identifier: # Add your discus identifier
 
 # Build settings
 markdown: kramdown
-mathjax: true
 highlighter: rouge
-compress_html:
-  clippings: all
-  comments: all
-  startings: [html, head, body]
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: true
+use_logo: false
 
-# Outputting
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
 
-category_archive:
-  type: liquid
-  path: /categories/
-
+# SASS
 sass:
   style: compressed
 
+# Plugins
 plugins:
   - jekyll-paginate
-  - jekyll-feed
-  - jekyll-sitemap
+  - jekyll-paginate-content
 
-include: [_pages]
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+# Exclude my node related stuff
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]
+
+# Theme
+version: v3.1.1
