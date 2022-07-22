@@ -1,7 +1,6 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: JinLoongFX
+title: 金龙的特效工坊
+description: 一杯茶一包烟一秒特效调一天
 tags:
   - blog
   - template
@@ -18,7 +17,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+email: jinloongfx@outlook.com
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
